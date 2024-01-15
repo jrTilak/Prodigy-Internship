@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/common.css" />
+    <link rel="stylesheet" href="/styles/media.css" />
+    <link rel="stylesheet" href="/styles/loader.css" />
+    <title>Caffeine - House of Foods</title>
+  </head>
+  <body>
+    <div class="loader-container">
+      <div class="loader"></div>
+    </div>
+    <nav class="navbar">
+      <a href="/" id="caffeine-heading">Caffeine</a>
+      <ul>
+        <li>
+          <a href="#main">Home</a>
+        </li>
+        <li>
+          <a href="#menu">Menu</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main">
+      <div class="landing">
+        <div id="landing-background">
+          <!-- javascript puts images here with class landing-background-image-->
+        </div>
+        <div id="background-indicators">
+          <!-- javascript puts dots here with class background-indicator-->
+        </div>
+        <h3>"Life is uncertain. Eat dessert first."</h3>
+        <h1>Fresh & Tasty Meals</h1>
+        <p>We have the best meals in town. We serve it hot and fresh.</p>
+        <a href="#menu" class="button-primary"> Order Now </a>
+        <div class="carousel-buttons">
+          <button id="carousel-button-prev" onclick="prevSlide()">
+            &#10094;
+          </button>
+          <button id="carousel-button-next" onclick="nextSlide()">
+            &#10095;
+          </button>
+        </div>
+      </div>
+      <div id="menu">
+        <h3>Let's Eat Something <span class="highlight">Delicious</span></h3>
+        <h1>MENU</h1>
+        <div class="menu-items-container">
+          <!-- javascript puts menu items here with class menu-item-->
+        </div>
+        <div id="menu-item-details">
+          <div class="menu-item-detailed-overlay"></div>
+          <!-- 
+          javascript puts menu item details here with class menu-item-detailed
+         -->
+        </div>
+      </div>
+    </main>
+    <footer>
+      <span>&copy; Created by <a href="#">jrTilak</a> </span>
+      <div>
+        <a href="#">
+          <img
+            src="https://www.svgrepo.com/show/303615/github-icon-1-logo.svg"
+            alt=""
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/jrtilak/" target="_blank">
+          <img src="https://www.svgrepo.com/show/508852/linkedin.svg" alt="" />
+        </a>
+      </div>
+    </footer>
+    <div class="scrollbar"></div>
+  </body>
+  <script src="/scripts/script.js"></script>
+</html>

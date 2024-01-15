@@ -1,0 +1,82 @@
+[
+  {
+    "_id": "1",
+    "name": "Americano",
+    "price": 5,
+    "images": [
+      "/assets/menu-images/coffee-1.jpg",
+      "/assets/menu-images/coffee-2.jpg"
+    ],
+    "description": "A shot of espresso with hot water added to it. Served with or without milk. It has a bold and rich flavor, perfect for those who enjoy a strong cup of coffee."
+  },
+  {
+    "_id": "2",
+    "name": "Margherita Pizza",
+    "price": 10,
+    "images": [
+      "/assets/menu-images/pizza-1.jpg",
+      "/assets/menu-images/pizza-2.jpg"
+    ],
+    "description": "A classic Italian pizza topped with tomato sauce, mozzarella cheese, and fresh basil leaves. Simple yet delicious!"
+  },
+  {
+    "_id": "3",
+    "name": "Chocolate Cake",
+    "price": 8,
+    "images": [
+      "/assets/menu-images/cake-1.jpg",
+      "/assets/menu-images/cake-2.jpg"
+    ],
+    "description": "A moist and decadent chocolate cake layered with rich chocolate ganache. Perfect for chocolate lovers!"
+  },
+  {
+    "_id": "4",
+    "name": "Paneer Tikka",
+    "price": 10,
+    "images": [
+      "/assets/menu-images/paneer-tikka-1.jpg",
+      "/assets/menu-images/paneer-tikka-2.jpg"
+    ],
+    "description": "A popular Indian appetizer made with marinated paneer (Indian cottage cheese) and grilled to perfection. Served with mint chutney."
+  },
+  {
+    "_id": "5",
+    "name": "Caesar Salad",
+    "price": 7,
+    "images": [
+      "/assets/menu-images/salad-1.jpg",
+      "/assets/menu-images/salad-2.jpg"
+    ],
+    "description": "A classic salad made with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing. A refreshing and healthy choice."
+  },
+  {
+    "_id": "6",
+    "name": "Mango Smoothie",
+    "price": 6,
+    "images": [
+      "/assets/menu-images/smoothie-1.jpg",
+      "/assets/menu-images/smoothie-2.jpg"
+    ],
+    "description": "A refreshing and tropical smoothie made with fresh mangoes, yogurt, and a hint of lime. Perfect for a hot summer day."
+  },
+  {
+    "_id": "7",
+    "name": "Spaghetti Carbonara",
+    "price": 11,
+    "images": [
+      "/assets/menu-images/pasta-1.jpg",
+      "/assets/menu-images/pasta-2.jpg"
+    ],
+    "description": "A classic Italian pasta dish made with spaghetti, eggs, pancetta, Parmesan cheese, and black pepper. Creamy and flavorful!"
+  },
+  {
+    "_id": "8",
+    "name": "Sushi Roll",
+    "price": 9,
+    "images": [
+      "/assets/menu-images/sushi-1.jpg",
+      "/assets/menu-images/sushi-2.jpg"
+    ],
+    "description": "A delicious Japanese dish made with vinegared rice, fresh seafood or vegetables, and wrapped in seaweed. A must-try for sushi lovers!"
+  }
+]

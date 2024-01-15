@@ -1,0 +1,65 @@
+/* width greater than 600px */
+@media (min-width: 600px) {
+  nav.navbar {
+    padding: 0.2rem 2rem;
+  }
+  .navbar ul {
+    font-size: 1.4rem;
+  }
+  #caffeine-heading {
+    font-size: 2.4rem;
+  }
+  .landing h3,
+  #menu h3 {
+    font-size: 2rem;
+  }
+  .landing h1,
+  #menu h1 {
+    font-size: 2.6rem;
+  }
+
+  .landing p {
+    font-size: 1.6rem;
+  }
+  .menu-items-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bottom-content .headings {
+    top: -80%;
+  }
+  .menu-item-detailed.active {
+    max-height: 600px;
+  }
+  .bottom-content p {
+    font-size: 1.2rem;
+  }
+}
+/* width greater than 900 */
+@media (min-width: 900px) {
+  nav.navbar {
+    padding: 0.2rem 6rem;
+  }
+  .landing h1,
+  #menu h1 {
+    font-size: 3.4rem;
+  }
+  .landing p {
+    font-size: 2rem;
+  }
+  .menu-item-image {
+    height: 300px;
+  }
+  .menu-item-info {
+    height: 300px;
+  }
+}
+/* width greater than 1300px */
+@media (min-width: 1300px) {
+  nav.navbar {
+    padding: 0.5rem 12rem;
+  }
+  .menu-items-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
