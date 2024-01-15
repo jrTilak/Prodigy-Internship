@@ -23,6 +23,7 @@ body {
   background-image: radial-gradient(#444cf7 0.65px, #e5e5f7 0.65px);
   background-size: 13px 13px;
   position: relative;
+  scroll-behavior: smooth;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
