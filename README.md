@@ -1,4 +1,4 @@
-# Prodigy Internship Tasks
+# Prodigy InfoTech Internship Tasks
 
 This repository contains all the tasks given by [Prodigy Infotech](https://prodigyinfotech.dev/) during my internship.
 
