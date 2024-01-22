@@ -1,0 +1,36 @@
+{
+  "frontendTechs": [
+    {
+      "name": "React.js",
+      "url": "https://react.dev/"
+    },
+    {
+      "name": "Vite.js",
+      "url": "https://vitejs.dev/"
+    },
+    {
+      "name": "TailwindCSS",
+      "url": "https://tailwindcss.com/"
+    },
+    {
+      "name": "Shadcn UI",
+      "url": "https://ui.shadcn.com/"
+    }
+  ],
+  "backendTechs": [
+    {
+      "name": "Express.js",
+      "url": "https://expressjs.com/"
+    },
+    {
+      "name": "MongoDB",
+      "url": "https://www.mongodb.com/"
+    }
+  ],
+  "with": [
+    {
+      "name": "TypeScript",
+      "url": "https://www.typescriptlang.org/"
+    }
+  ]
+}
