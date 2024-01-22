@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Board from "./Board";
 
 const Game = () => {
@@ -6,7 +6,7 @@ const Game = () => {
   const [xIsNext, setXIsNext] = useState(true);
   const winner = calculateWinner(board);
 
-  function calculateWinner(squares) {
+  function calculateWinner(squares: any[]) {
     const lines = [
       [0, 1, 2],
       [3, 4, 5],
@@ -36,7 +36,7 @@ const Game = () => {
     return null;
   }
 
-  const handleClick = (i) => {
+  const handleClick = (i:any) => {
     const boardCopy = [...board];
     if (winner || boardCopy[i]) return;
     boardCopy[i] = xIsNext ? "X" : "O";
