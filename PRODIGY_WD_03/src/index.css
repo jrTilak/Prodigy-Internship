@@ -92,10 +92,6 @@ button {
   html {
     font-size: 9px;
   }
-
-  body {
-    background-image: linear-gradient(0.25turn, #3f87a68c, #ebf8e1, #f69c3c77);
-  }
 }
 
 @media screen and (max-width: 300px) {
