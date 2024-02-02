@@ -72,6 +72,7 @@ const Portfolio = () => {
         <ul className="project-list">
           {PROJECTS.map(({ img, title, category }) => (
             <li
+              key={title}
               className="project-item  active"
               data-filter-item
               data-category={category}

@@ -101,10 +101,11 @@ export default function About() {
 
       <section className="about-text">
         <p>
-          🙋‍♂️ Greetings! I'm Tilak Thapa(jrTilak), a passionate web developer
-          with more than 1 years of experience. I specialize web development in
-          React and Next.js. I'm also a huge fan of open-source. I'm currently
-          looking for opportunities to work as a Full Stack Developer.
+          🙋‍♂️ Greetings! I&apos;m Tilak Thapa(jrTilak), a passionate web
+          developer with more than 1 years of experience. I specialize web
+          development in React and Next.js. I&apos;m also a huge fan of
+          open-source. I&apos;m currently looking for opportunities to work as a
+          Full Stack Developer.
         </p>
 
         <p>
@@ -121,7 +122,7 @@ export default function About() {
         --> */}
 
       <section className="service">
-        <h3 className="h3 service-title">What I'm doing</h3>
+        <h3 className="h3 service-title">What I&apos;m doing</h3>
 
         <ul className="service-list">
           {SERVICES.map(({ img, text, title }, index) => (
@@ -149,7 +150,7 @@ export default function About() {
 
         <ul className="testimonials-list has-scrollbar">
           {TESTIMONIALS.map(({ avatar, name, text }, index) => (
-            <li className="testimonials-item">
+            <li className="testimonials-item" key={index}>
               <div className="content-card" data-testimonials-item>
                 <figure className="testimonials-avatar-box">
                   <Image
@@ -175,51 +176,6 @@ export default function About() {
           ))}
         </ul>
       </section>
-
-      {/* <!--
-          - testimonials modal
-        --> */}
-
-      <div className="modal-container" data-modal-container>
-        <div className="overlay" data-overlay></div>
-
-        <section className="testimonials-modal">
-          <button className="modal-close-btn" data-modal-close-btn>
-            <IoMdClose />
-          </button>
-
-          <div className="modal-img-wrapper">
-            <figure className="modal-avatar-box">
-              <img
-                src="./assets/avatar-1.png"
-                alt="Daniel lewis"
-                width="80"
-                data-modal-img
-              />
-            </figure>
-
-            <img src="./assets/icon-quote.svg" alt="quote icon" />
-          </div>
-
-          <div className="modal-content">
-            <h4 className="h3 modal-title" data-modal-title>
-              Daniel lewis
-            </h4>
-
-            <time dateTime="2021-06-14">14 June, 2021</time>
-
-            <div data-modal-text>
-              <p>
-                Richard was hired to create a corporate identity. We were very
-                pleased with the work done. She has a lot of experience and is
-                very concerned about the needs of client. Lorem ipsum dolor sit
-                amet, ullamcous cididt consectetur adipiscing elit, seds do et
-                eiusmod tempor incididunt ut laborels dolore magnarels alia.
-              </p>
-            </div>
-          </div>
-        </section>
-      </div>
 
       {/* <!--
           - clients

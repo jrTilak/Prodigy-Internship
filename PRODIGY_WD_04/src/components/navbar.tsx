@@ -9,8 +9,8 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <ul className="navbar-list">
-        {LINKS.map((link) => (
-          <li className="navbar-item">
+        {LINKS.map((link, index) => (
+          <li className="navbar-item" key={index}>
             <Link
               href={`/${link.toLowerCase()}`}
               className={`navbar-link ${

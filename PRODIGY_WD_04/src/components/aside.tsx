@@ -78,7 +78,7 @@ const Aside = () => {
 
         <ul className="contacts-list">
           {CONTACTS_LIST.map((contact, index) => (
-            <li className="contact-item">
+            <li className="contact-item"key={index}>
               <div className="icon-box">{contact.icon}</div>
 
               <div className="contact-info">

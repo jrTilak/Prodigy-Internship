@@ -49,7 +49,7 @@ const Blog = () => {
       <section className="blog-posts">
         <ul className="blog-posts-list">
           {BLOGS.map(({ category, date, img, link, text, title }) => (
-            <li className="blog-post-item">
+            <li className="blog-post-item" key={title}>
               <div>
                 <figure className="blog-banner-box">
                   <Image

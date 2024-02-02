@@ -59,8 +59,8 @@ const Resume = () => {
         <h2 className="h2 article-title">Resume</h2>
       </header>
 
-      {TIMELINES.map((timeline) => (
-        <Timeline {...timeline} />
+      {TIMELINES.map((timeline, i) => (
+        <Timeline {...timeline} key={i} />
       ))}
 
       <section className="skill">
@@ -68,7 +68,7 @@ const Resume = () => {
 
         <ul className="skills-list content-card">
           {SKILLS.map(({ title, percentage }) => (
-            <li className="skills-item">
+            <li className="skills-item" key={title}>
               <div className="title-wrapper">
                 <h5 className="h5">{title}</h5>
                 <data value={percentage}>{percentage}%</data>
@@ -111,7 +111,7 @@ const Timeline = ({ category, timeline }: TimelineProps) => {
 
       <ol className="timeline-list">
         {timeline.map(({ title, date, text }) => (
-          <li className="timeline-item">
+          <li className="timeline-item" key={title}>
             <h4 className="h4 timeline-item-title">{title}</h4>
 
             <span>{date}</span>
